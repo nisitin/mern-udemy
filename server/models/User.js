@@ -21,8 +21,8 @@ const UserSchema = new Schema({
         max: 64
     },
     stripe_account_id: "",
-    stripe_selector: {},
-    stripe_session: {}
+    stripe_seller: {},
+    stripeSession: {},
 },
     { timestamps: true }
 )
